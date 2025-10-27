@@ -6,7 +6,63 @@ This is a childtheme demonstration. In this case the parent theme is Twenty Twen
 
 These files will initiate your theme development process. Now you can add whatever you fancy: fonts, colors, duotones, gradients, headers, templates, etc. etc. 
 
-~~
+# myChildTheme
+
+This is a childtheme demonstration. In this case the parent theme is Twenty Twenty-five - but it's easy to change to another theme. Just edit the `style.css`file, and copy relevant files from the parent theme to the child theme folder.
+
+## Structure
+
+These files will initiate your theme development process. Now you can add whatever you fancy: fonts, colors, duotones, gradients, headers, templates, etc. etc. 
+
+~~~~
+myChild/
+├── functions.php
+├── index.php
+├── screenshot.png
+└── style.css
+~~~~
+
+## And then
+
+When you have added what you want to add it's time to export the theme to a zip file from the Dashboard. 
+
+Now open the zip - and whatever you've added will be part of the theme. The zip-file will look somewhat like this:
+
+~~~~~
+myChild/
+├── functions.php
+├── index.php
+├── parts
+│   ├── footer-columns.html
+│   ├── footer-newsletter.html
+│   ├── footer.html
+│   ├── header-large-title.html
+│   ├── header.html
+│   ├── sidebar.html
+│   └── vertical-header.html
+├── screenshot.png
+├── style.css
+├── templates
+│   ├── 404.html
+│   ├── archive.html
+│   ├── home.html
+│   ├── index.html
+│   ├── page-no-title.html
+│   ├── page.html
+│   ├── search.html
+│   └── single.html
+└── theme.json
+~~~~
+
+Your work with templates and template parts will be found in the correct directories. Colors and fonts will be added to the theme.json. You can even edit the style.css and update the parent theme (in this case Twenty twenty-five). 
+
+Please note that the fonts are uploaded to `../uploads/fonts`. Perhaps it is more convenient to place the font files in `./assets/fonts`. Then you can add the fonts to your theme.json.
+
+## Style variations
+
+You can experiment with colors, fonts and layout. Save your most recent changes as a copy of theme json in `./styles/MYVARIATION.json`. Then add more colors, fonts, layouts, headers, footers and so on. When the next variation is ready you can copy the theme.json as e.g. `./styles/myNEWvariation.json`.
+
+Then: "The game's afoot Watson ..." (Sherlock Holmes)
 myChild/
 ├── functions.php
 ├── index.php
