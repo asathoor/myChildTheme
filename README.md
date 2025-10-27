@@ -14,13 +14,13 @@ This is a childtheme demonstration. In this case the parent theme is Twenty Twen
 
 These files will initiate your theme development process. Now you can add whatever you fancy: fonts, colors, duotones, gradients, headers, templates, etc. etc. 
 
-~~~~
+<code>
 myChild/
 ├── functions.php
 ├── index.php
 ├── screenshot.png
 └── style.css
-~~~~
+<code>
 
 ## And then
 
