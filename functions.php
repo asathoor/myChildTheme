@@ -6,5 +6,5 @@ function petj_enqueue_styles() {
 	wp_enqueue_style( 'petj-tt5-parent-style',  get_parent_theme_file_uri( 'style.css' ) );
 
 	// child theme css
-	wp_enqueue_style( 'petj_barnet_enqueue_styles', get_stylesheet_uri() );
+	wp_enqueue_style( 'petj_child_enqueue_style', get_stylesheet_uri() );
 }
