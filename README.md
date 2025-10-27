@@ -106,6 +106,8 @@ myChild/
 └── theme.json
 </code>
 
+## Gutenberg Magick
+
 Your work with templates and template parts will be found in the correct directories. Colors and fonts will be added to the theme.json. You can even edit the style.css and update the parent theme (in this case Twenty twenty-five). 
 
 Please note that the fonts are uploaded to `../uploads/fonts`. Perhaps it is more convenient to place the font files in `./assets/fonts`. Then you can add the font src's to your theme.json in fonts:
