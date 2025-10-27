@@ -20,7 +20,7 @@ myChild/
 ├── index.php
 ├── screenshot.png
 └── style.css
-<code>
+</code>
 
 ## And then
 
