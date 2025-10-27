@@ -62,8 +62,6 @@ Please note that the fonts are uploaded to `../uploads/fonts`. Perhaps it is mor
 
 You can experiment with colors, fonts and layout. Save your most recent changes as a copy of theme json in `./styles/MYVARIATION.json`. Then add more colors, fonts, layouts, headers, footers and so on. When the next variation is ready you can copy the theme.json as e.g. `./styles/myNEWvariation.json`.
 
-Then: "The game's afoot Watson ..." (Sherlock Holmes)
-
 <code>
 myChild/
 ├── functions.php
