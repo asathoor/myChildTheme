@@ -16,9 +16,9 @@ myChild/
 
 ## And then
 
-When you have added what you want to add it's time to export the theme to a zip file from the Dashboard. 
+Install the theme on a server. Make whatever changes you fancy. When you have added what you want to add it's time to export the theme to a zip file from the Dashboard. 
 
-Now open the zip - and whatever you've added will be part of the theme. The zip-file will look somewhat like this:
+Now open the *exported* zip - and whatever you've added will be part of the theme. The zip-file will look somewhat like this:
 
 ~~~~~
 myChild/
