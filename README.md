@@ -6,13 +6,13 @@ This is a childtheme demonstration. In this case the parent theme is Twenty Twen
 
 These files will initiate your theme development process. Now you can add whatever you fancy: fonts, colors, duotones, gradients, headers, templates, etc. etc. 
 
-~~~~
+~~
 myChild/
 ├── functions.php
 ├── index.php
 ├── screenshot.png
 └── style.css
-~~~~
+~~
 
 ## And then
 
@@ -22,7 +22,7 @@ Make whatever changes you fancy. When you have added what you want to add it's t
 
 Now open the *exported* zip - and whatever you've added will be part of the theme. The zip-file will look somewhat like this:
 
-~~~~~
+~~
 myChild/
 ├── functions.php
 ├── index.php
@@ -46,7 +46,7 @@ myChild/
 │   ├── search.html
 │   └── single.html
 └── theme.json
-~~~~
+~~
 
 Your work with templates and template parts will be found in the correct directories. Colors and fonts will be added to the theme.json. You can even edit the style.css and update the parent theme (in this case Twenty twenty-five). 
 
