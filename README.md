@@ -28,8 +28,7 @@ When you have added what you want to add it's time to export the theme to a zip 
 
 Now open the zip - and whatever you've added will be part of the theme. The zip-file will look somewhat like this:
 
-~~~~
-
+<code>
 myChild/
 ├── functions.php
 ├── index.php
@@ -53,8 +52,7 @@ myChild/
 │   ├── search.html
 │   └── single.html
 └── theme.json
-
-~~~~
+</code>
 
 Your work with templates and template parts will be found in the correct directories. Colors and fonts will be added to the theme.json. You can even edit the style.css and update the parent theme (in this case Twenty twenty-five). 
 
@@ -65,12 +63,14 @@ Please note that the fonts are uploaded to `../uploads/fonts`. Perhaps it is mor
 You can experiment with colors, fonts and layout. Save your most recent changes as a copy of theme json in `./styles/MYVARIATION.json`. Then add more colors, fonts, layouts, headers, footers and so on. When the next variation is ready you can copy the theme.json as e.g. `./styles/myNEWvariation.json`.
 
 Then: "The game's afoot Watson ..." (Sherlock Holmes)
+
+<code>
 myChild/
 ├── functions.php
 ├── index.php
 ├── screenshot.png
 └── style.css
-~~
+</code>
 
 ## And then
 
@@ -80,7 +80,7 @@ Make whatever changes you fancy. When you have added what you want to add it's t
 
 Now open the *exported* zip - and whatever you've added will be part of the theme. The zip-file will look somewhat like this:
 
-~~
+<code>
 myChild/
 ├── functions.php
 ├── index.php
@@ -104,7 +104,7 @@ myChild/
 │   ├── search.html
 │   └── single.html
 └── theme.json
-~~
+</code>
 
 Your work with templates and template parts will be found in the correct directories. Colors and fonts will be added to the theme.json. You can even edit the style.css and update the parent theme (in this case Twenty twenty-five). 
 
