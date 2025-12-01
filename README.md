@@ -135,7 +135,7 @@ You can experiment with colors, fonts and layout. Save your most recent changes 
 
 ## On the domain server
 
-When your child theme is ready you can install the exported zip as a child theme. 
+When your child theme is ready, you can install the exported zip as a child theme. 
 
 Oh - and remember to push to Github.
 
